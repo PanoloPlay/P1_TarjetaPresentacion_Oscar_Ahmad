@@ -59,13 +59,12 @@ fun proyecto() {
     Column (
         modifier = Modifier.fillMaxHeight(1f)
             .fillMaxWidth(1f)
-            .padding(10.dp)
             .background(Color.Black)
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
-            modifier = Modifier.weight(2f)
+            modifier = Modifier.weight(3f)
                 .fillMaxWidth(1f)
         ) {
             Column(
@@ -102,10 +101,11 @@ fun proyecto() {
             }
         }
         Column(
-            verticalArrangement = Arrangement.Center,
+            verticalArrangement = Arrangement.Bottom,
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.weight(1f)
                 .fillMaxWidth(1f)
+                .padding(0.dp, 15.dp)
         ) {
             Column(
             ) {
