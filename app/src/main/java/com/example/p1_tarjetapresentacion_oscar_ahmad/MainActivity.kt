@@ -1,5 +1,6 @@
 package com.example.p1_tarjetapresentacion_oscar_ahmad
 
+import android.graphics.drawable.Icon
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -115,10 +116,8 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Image(
-                            painter = painterResource(R.drawable.phone),
-                            contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                        Icon(
+
                         )
                     }
 
@@ -144,10 +143,8 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Image(
-                            painter = painterResource(R.drawable.contact),
-                            contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                        Icon(
+
                         )
                     }
 
@@ -172,10 +169,8 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Image(
-                            painter = painterResource(R.drawable.mail),
-                            contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                        Icon(
+
                         )
                     }
 
