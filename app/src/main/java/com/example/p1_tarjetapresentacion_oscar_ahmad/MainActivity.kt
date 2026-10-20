@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -18,6 +19,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -61,6 +63,7 @@ fun proyecto() {
         modifier = Modifier.fillMaxHeight(1f)
             .fillMaxWidth(1f)
             .padding(10.dp)
+            .background(Color.Black)
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
@@ -86,7 +89,8 @@ fun proyecto() {
                 Text(
                     text = stringResource(R.string.presentation_names),
                     fontSize = 25.sp,
-                    fontFamily = FontFamily.Serif
+                    fontFamily = FontFamily.Serif,
+                    color = Color.Green
                 )
             }
             Column(
@@ -95,7 +99,8 @@ fun proyecto() {
                 Text(
                     text = stringResource(R.string.presentation_title),
                     fontSize = 15.sp,
-                    fontFamily = FontFamily.SansSerif
+                    fontFamily = FontFamily.Default,
+                    color = Color.White
                 )
             }
         }
@@ -113,13 +118,21 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = "TEST",
+                            color = Color.White
+                        )
                     }
 
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = stringResource(R.string.presentation_email),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
                     }
                 }
 
@@ -133,13 +146,21 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = "TEST",
+                            color = Color.White
+                        )
                     }
 
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = stringResource(R.string.presentation_email),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
                     }
                 }
             }
@@ -152,13 +173,21 @@ fun proyecto() {
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = "TEST",
+                            color = Color.White
+                        )
                     }
 
                     Row(
 
                     ) {
-                        Text(text = "TEST")
+                        Text(
+                            text = stringResource(R.string.presentation_email),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
                     }
                 }
             }

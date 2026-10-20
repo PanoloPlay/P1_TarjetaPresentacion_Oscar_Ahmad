@@ -2,5 +2,8 @@
     <string name="app_name">P1_TarjetaPresentacion_Oscar_Ahmad</string>
     <string name="presentation_names">Óscar Hueso y Ahmad Alhadad</string>
     <string name="presentation_title">Android Developers in Training</string>
+    <string name="presentation_phone">Android Developers in Training</string>
+    <string name="presentation_media">Android Developers in Training</string>
+    <string name="presentation_email">Android Developers in Training</string>
 
 </resources>
