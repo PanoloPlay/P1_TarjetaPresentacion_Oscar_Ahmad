@@ -68,12 +68,7 @@ fun proyecto() {
                 Row(
                     horizontalArrangement = Arrangement.Center
                 ) {
-                    Image(
-                        painter = image,
-                        contentDescription = null,
-                        contentScale = ContentScale.Crop,
-                        alpha = 0.5F
-                    )
+
                 }
             }
             Column(
