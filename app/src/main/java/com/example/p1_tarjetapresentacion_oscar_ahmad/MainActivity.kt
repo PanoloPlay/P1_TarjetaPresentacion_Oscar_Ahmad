@@ -60,7 +60,7 @@ fun proyecto() {
     Column (
         modifier = Modifier.fillMaxHeight(1f)
             .fillMaxWidth(1f)
-            .background(Color.Black)
+            .background(Color.Blue)
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
@@ -114,18 +114,21 @@ fun proyecto() {
 
                 ) {
                     Row(
-
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
                     ) {
-                        Icon(
-
+                        Image(
+                            painter = painterResource(R.drawable.phone),
+                            contentDescription = null,
+                            modifier = Modifier.size(20.dp)
                         )
                     }
 
                     Row(
-
+                        modifier = Modifier.weight(2f)
                     ) {
                         Text(
-                            text = stringResource(R.string.presentation_email),
+                            text = stringResource(R.string.presentation_phone),
                             fontFamily = FontFamily.Cursive,
                             color = Color.White,
                             modifier = Modifier.padding(7.dp,0.dp)
@@ -141,18 +144,21 @@ fun proyecto() {
 
                 ) {
                     Row(
-
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
                     ) {
-                        Icon(
-
+                        Image(
+                            painter = painterResource(R.drawable.contact),
+                            contentDescription = null,
+                            modifier = Modifier.size(20.dp)
                         )
                     }
 
                     Row(
-
+                        modifier = Modifier.weight(2f)
                     ) {
                         Text(
-                            text = stringResource(R.string.presentation_email),
+                            text = stringResource(R.string.presentation_media),
                             fontFamily = FontFamily.Cursive,
                             color = Color.White,
                             modifier = Modifier.padding(7.dp,0.dp)
@@ -167,15 +173,18 @@ fun proyecto() {
 
                 ) {
                     Row(
-
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
                     ) {
-                        Icon(
-
+                        Image(
+                            painter = painterResource(R.drawable.mail),
+                            contentDescription = null,
+                            modifier = Modifier.size(20.dp)
                         )
                     }
 
                     Row(
-
+                        modifier = Modifier.weight(2f)
                     ) {
                         Text(
                             text = stringResource(R.string.presentation_email),
