@@ -74,7 +74,7 @@ fun proyecto() {
                     horizontalArrangement = Arrangement.Center
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.android_logo),
+                        painter = painterResource(R.drawable.pokeball),
                         contentDescription = null,
                         modifier = Modifier.size(200.dp)
                     )
@@ -118,7 +118,7 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.phone),
+                            painter = painterResource(R.drawable.normal),
                             contentDescription = null,
                             modifier = Modifier.size(20.dp)
                         )
@@ -148,7 +148,7 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.contact),
+                            painter = painterResource(R.drawable.normal),
                             contentDescription = null,
                             modifier = Modifier.size(20.dp)
                         )
@@ -177,7 +177,7 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.mail),
+                            painter = painterResource(R.drawable.normal),
                             contentDescription = null,
                             modifier = Modifier.size(20.dp)
                         )
