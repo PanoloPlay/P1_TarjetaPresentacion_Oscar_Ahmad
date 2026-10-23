@@ -74,7 +74,7 @@ fun proyecto() {
                     horizontalArrangement = Arrangement.Center
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.pokeball),
+                        painter = painterResource(R.drawable.spr_b2w2_iris),
                         contentDescription = null,
                         modifier = Modifier.size(200.dp)
                     )
@@ -96,6 +96,17 @@ fun proyecto() {
                 Text(
                     text = stringResource(R.string.presentation_title),
                     fontSize = 15.sp,
+                    fontFamily = FontFamily.Cursive,
+                    color = Color.White
+                )
+            }
+
+            Column(
+
+            ) {
+                Text(
+                    text = stringResource(R.string.presentation_creditos),
+                    fontSize = 12.sp,
                     fontFamily = FontFamily.Default,
                     color = Color.White
                 )
@@ -118,9 +129,9 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.normal),
+                            painter = painterResource(R.drawable.hydreigon),
                             contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                            modifier = Modifier.size(30.dp)
                         )
                     }
 
@@ -128,7 +139,29 @@ fun proyecto() {
                         modifier = Modifier.weight(2f)
                     ) {
                         Text(
-                            text = stringResource(R.string.presentation_phone),
+                            text = stringResource(R.string.presentation_hydreigon),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
+                    }
+
+                    Row(
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Image(
+                            painter = painterResource(R.drawable.druddigon),
+                            contentDescription = null,
+                            modifier = Modifier.size(30.dp)
+                        )
+                    }
+
+                    Row(
+                        modifier = Modifier.weight(2f)
+                    ) {
+                        Text(
+                            text = stringResource(R.string.presentation_druddigon),
                             fontFamily = FontFamily.Cursive,
                             color = Color.White,
                             modifier = Modifier.padding(7.dp,0.dp)
@@ -148,9 +181,9 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.normal),
+                            painter = painterResource(R.drawable.aggron),
                             contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                            modifier = Modifier.size(30.dp)
                         )
                     }
 
@@ -158,7 +191,29 @@ fun proyecto() {
                         modifier = Modifier.weight(2f)
                     ) {
                         Text(
-                            text = stringResource(R.string.presentation_media),
+                            text = stringResource(R.string.presentation_aggron),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
+                    }
+
+                    Row(
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Image(
+                            painter = painterResource(R.drawable.archeops),
+                            contentDescription = null,
+                            modifier = Modifier.size(30.dp)
+                        )
+                    }
+
+                    Row(
+                        modifier = Modifier.weight(2f)
+                    ) {
+                        Text(
+                            text = stringResource(R.string.presentation_archeops),
                             fontFamily = FontFamily.Cursive,
                             color = Color.White,
                             modifier = Modifier.padding(7.dp,0.dp)
@@ -177,9 +232,9 @@ fun proyecto() {
                         modifier = Modifier.weight(1f)
                     ) {
                         Image(
-                            painter = painterResource(R.drawable.normal),
+                            painter = painterResource(R.drawable.lapras),
                             contentDescription = null,
-                            modifier = Modifier.size(20.dp)
+                            modifier = Modifier.size(30.dp)
                         )
                     }
 
@@ -187,7 +242,29 @@ fun proyecto() {
                         modifier = Modifier.weight(2f)
                     ) {
                         Text(
-                            text = stringResource(R.string.presentation_email),
+                            text = stringResource(R.string.presentation_lapras),
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.White,
+                            modifier = Modifier.padding(7.dp,0.dp)
+                        )
+                    }
+
+                    Row(
+                        horizontalArrangement = Arrangement.End,
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Image(
+                            painter = painterResource(R.drawable.haxorus),
+                            contentDescription = null,
+                            modifier = Modifier.size(30.dp)
+                        )
+                    }
+
+                    Row(
+                        modifier = Modifier.weight(2f)
+                    ) {
+                        Text(
+                            text = stringResource(R.string.presentation_haxorus),
                             fontFamily = FontFamily.Cursive,
                             color = Color.White,
                             modifier = Modifier.padding(7.dp,0.dp)

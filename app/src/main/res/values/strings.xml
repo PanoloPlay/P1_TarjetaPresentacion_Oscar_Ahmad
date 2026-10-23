@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">P1_TarjetaPresentacion_Oscar_Ahmad</string>
-    <string name="presentation_names">Óscar Hueso y Ahmad Alhadad</string>
-    <string name="presentation_title">Android Developers in Training</string>
-    <string name="presentation_phone">(+64) 000 00 00 00</string>
-    <string name="presentation_media">SOCIAL</string>
-    <string name="presentation_email">alalalal</string>
+    <string name="presentation_names">Equipo de Iris</string>
+    <string name="presentation_creditos">Hecho por Óscar Hueso y Ahmad Alhadad</string>
+    <string name="presentation_title">Campeona de la región de Unova</string>
+    <string name="presentation_hydreigon">Hydreigon Lv76</string>
+    <string name="presentation_druddigon">Druddiggon Lv76</string>
+    <string name="presentation_aggron">Aggron Lv76</string>
+    <string name="presentation_archeops">Archeops Lv76</string>
+    <string name="presentation_lapras">Lapras Lv76</string>
+    <string name="presentation_haxorus">Haxorus Lv78</string>
 </resources>
